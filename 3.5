@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main(void)
+{
+	float a = 3200.0;
+	double b = 2.14e9;
+	long double c = 5.32e-5;
+
+	printf("%f  =  %e   =   %a\n", a, a,a);
+	printf("%f  =  %e\n", b, b);
+	printf("%lf  =  %le\n", c, c);
+	return 0;
+}
